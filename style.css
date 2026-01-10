@@ -1,3 +1,21 @@
-.parent >.child {
+div:nth-last-child(3) {
     color: red;
+}
+input:focus{
+    border: 5px solid rgb(255, 0, 0);
+}
+
+::selection {
+    background-color: yellow;
+    color: black;
+}
+
+::placeholder {
+    color:green
+}
+
+div:empty {
+    height: 50px;
+    width: 200px;
+    background-color: blue;
 }
